@@ -54,7 +54,10 @@ a:hover {
 
 /* Custom elements */
 
-.big-text { font-size: 2rem; }
+.big-text {
+	font-family: 'Barlow', sans-serif;
+	font-weight: 400;
+}
 
 .text-primary { color: #E02B57 !important; }
 .text-secondary { color: #2E2D33 !important; }
