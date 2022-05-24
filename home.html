@@ -26,118 +26,308 @@
     <link href="https://cdn.jsdelivr.net/gh/trabalhocomti/tcti-template@master/lineicons.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="index.css" rel="stylesheet">
-    <!-- <link href="https://cdn.jsdelivr.net/gh/trabalhocomti/tcti-template@master/index.css" rel="stylesheet"> -->
+<!--    <link href="index.css" rel="stylesheet">-->
+    <link href="https://cdn.jsdelivr.net/gh/trabalhocomti/tcti-template@master/index.css" rel="stylesheet">
 
     <title>Trabalho com Ti</title>
   </head>
   <body>
-    <!-- header -->
-    <section class="section-navigation">
-      <div class="container">
-        <div class="d-flex justify-content-between align-items-center">
-          <a class="brand" href="#">
-            <img src="https://res.cloudinary.com/project-web-page/image/upload/v1649441487/trabalho-com-ti/logos/ti-logo-full-color.svg" alt="Trabalho com Ti logo">
-          </a>
-          <ul class="list-inline m-0">
-            <li class="list-inline-item">
-              <a class="link-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-menu" aria-controls="offcanvas-menu"><h4 class="m-0">Menu</h4></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-    <!-- header end -->
 
-    <!-- menu -->
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas-menu" aria-labelledby="Menu">
-      <div class="offcanvas-header section-navigation bg-primary text-white">
-        <div class="container">
-          <div class="d-flex justify-content-between align-items-center">
-            <a class="brand" href="#">
-              <img src="https://res.cloudinary.com/project-web-page/image/upload/v1649441487/trabalho-com-ti/logos/ti-logo-full-white.svg" alt="Trabalho com Ti logo">
+  <!-- menu -->
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas-menu" aria-labelledby="Menu">
+    <div class="offcanvas-header section bg-primary">
+      <div class="container position-relative">
+        <a class="btn btn-lg position-absolute" style="top: 0px; right: 10px" type="button" data-bs-dismiss="offcanvas" aria-label="Fechar"><h2 class="m-0"><i class="lni lni-close text-white"></i></h2></a>
+        <img class="d-block" style="height: auto; width: 30%;" src="https://res.cloudinary.com/project-web-page/image/upload/v1649441487/trabalho-com-ti/logos/ti-logo-full-white.svg" alt="Trabalho com Ti logo">
+      </div>
+    </div>
+
+    <div class="offcanvas-body section">
+      <div class="container">
+        <a href="#" class="link-dark d-block mb-3"><h1 class="display-3 m-0"><i class="lni lni-rocket"></i> Seu guia tech</h1></a>
+        <a href="#" class="link-dark d-block mb-3"><h1 class="display-3 m-0"><i class="lni lni-library"></i> Notícias</h1></a>
+        <a href="#" class="link-dark d-block mb-3"><h1 class="display-3 m-0"><i class="lni lni-support"></i> Respondendo dúvidas</h1></a>
+        <a href="#" class="link-dark d-block mb-3"><h1 class="display-3 m-0"><i class="lni lni-mic"></i> Podcast</h1></a>
+        <a href="#" class="link-dark d-block"><h1 class="display-3 m-0"><i class="lni lni-travel"></i> Treinamentos</h1></a>
+      </div>
+
+      <div class="container pt-5">
+        <h1 class="display-3"><i class="lni lni-share-alt-1"></i> Nossas redes</h1>
+        <p class="big-text h3 mb-5">Fique por dentro de tudo o que estamos fazendo!</p>
+
+        <div class="row pb-5">
+          <div class="col-3">
+            <a href="https://www.instagram.com/trabalhocomti/">
+              <img class="img-fluid rounded" alt="Instagram" src="https://res.cloudinary.com/trabalhocomti/image/upload/q_auto/v1653396112/trabalho-com-ti/logo/social-media/instagram_xscaxs.webp">
             </a>
-            <ul class="list-inline m-0">
-              <li class="list-inline-item">
-                <a class="link-light" type="button" data-bs-dismiss="offcanvas" aria-label="Fechar"><h4 class="m-0">Fechar</h4></a>
-              </li>
-            </ul>
+          </div>
+          <div class="col-3">
+            <a href="https://www.youtube.com/channel/UC5bEUJPHER_8iBCTTe11dBQ">
+              <img class="img-fluid rounded" alt="YouTube" src="https://res.cloudinary.com/trabalhocomti/image/upload/q_auto/v1653396113/trabalho-com-ti/logo/social-media/youtube_db1cpa.webp">
+            </a>
+          </div>
+          <div class="col-3">
+            <a href="https://www.tiktok.com/@trabalhocomti">
+              <img class="img-fluid rounded" alt="TikTok" src="https://res.cloudinary.com/trabalhocomti/image/upload/q_auto/v1653396113/trabalho-com-ti/logo/social-media/tiktok_ejknur.webp">
+            </a>
+          </div>
+          <div class="col-3">
+            <a href="https://www.linkedin.com/company/trabalhocomti/">
+              <img class="img-fluid rounded" alt="LinkedIn" src="https://res.cloudinary.com/trabalhocomti/image/upload/q_auto/v1653396112/trabalho-com-ti/logo/social-media/linkedin_b3imcw.webp">
+            </a>
           </div>
         </div>
       </div>
 
-      <div class="offcanvas-body section">
-        <div class="text-center">
-          <a href="#" class="d-block"><h1 class="display-1 m-0">Seu guia tech</h1></a>
-        </div>
-      </div>
     </div>
-    <!-- menu end -->
+  </div>
+  <!-- menu end -->
 
-    <!-- guia -->
-    <section class="section-navigation bg-primary">
-      <div class="container">
-        <div class="position-relative overflow-hidden rounded-3" style="padding-top: 300px;">
-          <video loop muted autoplay style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; object-fit: cover;">
-            <source src="https://res.cloudinary.com/trabalhocomti/video/upload/f_auto/v1652990597/trabalho-com-ti/pexels-mikhail-nilov-7989448_ppnmf1.mp4" type="video/mp4">
-          </video>
-
-          <div class="bg-black-gradient text-white" style="position: relative; z-index: 10;">
-            <div class="row justify-content-center align-items-bottom p-5">
-              <div class="col-12">
-                <h1 class="display-1">Você quer trabalhar com tecnologia?</h1>
-                <p class="lead"><strong>Este é o seu guia!</strong> Descubra como a área de tecnologia funciona e se ela é para você.</p>
-                <a class="btn btn-primary btn-light" href="#"><h2 class="m-0 p-1 text-white">Entrar no guia</h2></a>
-              </div>
-            </div>
-          </div> 
-        </div>
-      </div>
-    </section>
-    <!-- guia end -->
-
-    <!-- guia -->
-    <div class="section">
-      <div class="container">
-      </div>
+  <section class="section">
+    <div class="container position-relative">
+      <a class="btn btn-lg position-absolute" style="top: 0px; right: 10px" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-menu" aria-controls="offcanvas-menu"><h2 class="m-0"><i class="lni lni-menu"></i></h2></a>
+      <p class="m-0 big-text h3">Olá, este é o</p>
+      <img class="d-block py-4" style="height: auto; width: 50%;" src="https://res.cloudinary.com/project-web-page/image/upload/v1649441487/trabalho-com-ti/logos/ti-logo-full-color.svg" alt="Trabalho com Ti logo">
+      <p class="big-text h3">Nós ajudamos você a <strong>entrar</strong> para a <strong>área de tecnologia</strong> e <strong>alavancar</strong> a sua carreira.</p>
     </div>
-    <!-- guia end -->
+  </section>
 
-    <!-- footer -->
-    <section class="section bg-secondary text-white border-top">
-      <div class="container">
-        <div class="row justify-content-between">
-          <div class="col-12 col-md-10 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-            <div class="mb-4">
-              <a class="brand" href="#">
-                <img src="https://res.cloudinary.com/project-web-page/image/upload/v1649441487/trabalho-com-ti/logos/ti-logo-full-white.svg" alt="Trabalho com Ti logo">
-              </a>
-            </div>
-            <p>Trabalho com ti foi criado com a intenção de ajudar pessoas a entrarem para a área de tecnologia e mudarem suas vidas.</p>
-          </div>
-          <div class="col-6 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-            <h3 class="text-gray mb-4">Empresa</h3>
-            <div class="mb-1"><a href="#" class="link-light">Início</a></div>
-            <div class="mb-1"><a href="#" class="link-light">Sobre</a></div>
-            <div class="mb-1"><a href="#" class="link-light">Contato</a></div>
-            <div class="mb-1"><a href="#" class="link-light">Políticas de Privacidade</a></div>
-            <div class="mb-1"><a href="#" class="link-light">Termos de uso</a></div>
-          </div>
-          <div class="col-6 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-            <h3 class="text-gray mb-4">Redes sociais</h3>
-            <div class="mb-1"><a href="#" class="link-light">YouTube</a></div>
-            <div class="mb-1"><a href="#" class="link-light">Instagram</a></div>
-            <div class="mb-1"><a href="#" class="link-light">TikTok</a></div>
-            <div class="mb-1"><a href="#" class="link-light">Linkedin</a></div>
-            <div class="mb-1"><a href="#" class="link-light">Facebook</a></div>
-          </div>
+  <section class="section bg-primary text-white">
+    <div class="container">
+      <i class="lni lni-rocket mb-3" style="font-size: 5rem;"></i>
+      <a href="#" class="link-light">
+        <h1 class="display-4 mb-4">Guia Tech</h1>
+      </a>
+
+      <p class="big-text h3">Você está pensando em <strong>entrar para a área de tech</strong> mas está meio perdido?</p>
+      <p class="big-text h3 mb-5"><strong>Nós criado um guia para você!</strong></p>
+      <a href="#" class="btn btn-lg btn-dark"><h2 class="m-0 p-1">Acessar o Guia Tech</h2></a>
+    </div>
+  </section>
+
+  <section class="section bg-tertiary">
+    <div class="container">
+      <i class="lni lni-library mb-3" style="font-size: 5rem;"></i>
+      <a href="#" class="link-dark">
+        <h1 class="display-4">Notícias</h1>
+      </a>
+      <p class="big-text h3 mb-5">Veja o que está acontecendo no mundo de tecnologia.</p>
+
+      <div class="row mb-4 pb-4 pt-4 border-bottom border-top">
+        <div class="col-8 col-sm-9">
+          <a href="#">
+            <h1 class="">My goals for 2021 (yes, list is on Trello 😄)</h1>
+          </a>
+          <p><strong>30 Ago 2022</strong></p>
+          <p class="big-text h4 mb-0">Aqui vamos falar sobre as funcionalidade da plataforma e como ela irá crescer.</p>
+        </div>
+        <div class="col-4 col-sm-3">
+          <a href="#">
+            <img class="img-fluid rounded" src="https://res.cloudinary.com/trabalhocomti/image/upload/c_fill,g_west,h_1360,q_auto,w_1080/v1652986470/trabalho-com-ti/fotos/jeshoots-com--2vD8lIhdnw-unsplash_qbdswg.webp">
+          </a>
         </div>
       </div>
-    </section>
-    <!-- footer end -->
+      <div class="row mb-4 pb-4 border-bottom">
+        <div class="col-8 col-sm-9">
+          <a href="#">
+            <h1 class="">My goals for 2021 (yes, list is on Trello 😄)</h1>
+          </a>
+          <p><strong>30 Ago 2022</strong></p>
+          <p class="big-text h4 mb-0">Aqui vamos falar sobre as funcionalidade da plataforma e como ela irá crescer.</p>
+        </div>
+        <div class="col-4 col-sm-3">
+          <a href="#">
+            <img class="img-fluid rounded" src="https://res.cloudinary.com/trabalhocomti/image/upload/c_fill,g_west,h_1360,q_auto,w_1080/v1652986470/trabalho-com-ti/fotos/jeshoots-com--2vD8lIhdnw-unsplash_qbdswg.webp">
+          </a>
+        </div>
+      </div>
+      <div class="row mb-4 pb-4 border-bottom">
+        <div class="col-8 col-sm-9">
+          <a href="#">
+            <h1 class="">My goals for 2021 (yes, list is on Trello 😄)</h1>
+          </a>
+          <p><strong>30 Ago 2022</strong></p>
+          <p class="big-text h4 mb-0">Aqui vamos falar sobre as funcionalidade da plataforma e como ela irá crescer.</p>
+        </div>
+        <div class="col-4 col-sm-3">
+          <a href="#">
+            <img class="img-fluid rounded" src="https://res.cloudinary.com/trabalhocomti/image/upload/c_fill,g_west,h_1360,q_auto,w_1080/v1652986470/trabalho-com-ti/fotos/jeshoots-com--2vD8lIhdnw-unsplash_qbdswg.webp">
+          </a>
+        </div>
+      </div>
 
-    <!-- Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <a href="#" class="btn btn-lg btn-dark"><h4 class="m-0 p-1">Ver mais notícias</h4></a>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <i class="lni lni-support mb-3" style="font-size: 5rem;"></i>
+      <a href="#" class="link-dark">
+        <h1 class="display-4">Respondendo dúvidas</h1>
+      </a>
+      <p class="big-text h3 mb-5">Respostas para suas dúvidas sobre trabalhar com tecnologia.</p>
+
+      <div class="row mb-4">
+        <div class="col-6 col-md-3">
+          <a href="#">
+            <img class="img-fluid rounded mb-3" src="https://res.cloudinary.com/trabalhocomti/image/upload/c_fill,g_east,h_1920,q_auto,w_1080/v1653318864/trabalho-com-ti/fotos/foto-1_v7enjf.webp">
+          </a>
+          <a href="#">
+            <h3>My goals for 2021 (yes, list is on Trello 😄)</h3>
+          </a>
+          <p><strong>30 Ago 2022</strong></p>
+        </div>
+        <div class="col-6 col-md-3">
+          <a href="#">
+            <img class="img-fluid rounded mb-3" src="https://res.cloudinary.com/trabalhocomti/image/upload/c_fill,g_east,h_1920,q_auto,w_1080/v1653318864/trabalho-com-ti/fotos/foto-1_v7enjf.webp">
+          </a>
+          <a href="#">
+            <h3>My goals for 2021 (yes, list is on Trello 😄)</h3>
+          </a>
+          <p><strong>30 Ago 2022</strong></p>
+        </div>
+        <div class="col-6 col-md-3">
+          <a href="#">
+            <img class="img-fluid rounded mb-3" src="https://res.cloudinary.com/trabalhocomti/image/upload/c_fill,g_east,h_1920,q_auto,w_1080/v1653318864/trabalho-com-ti/fotos/foto-1_v7enjf.webp">
+          </a>
+          <a href="#">
+            <h3>My goals for 2021 (yes, list is on Trello 😄)</h3>
+          </a>
+          <p><strong>30 Ago 2022</strong></p>
+        </div>
+        <div class="col-6 col-md-3">
+          <a href="#">
+            <img class="img-fluid rounded mb-3" src="https://res.cloudinary.com/trabalhocomti/image/upload/c_fill,g_east,h_1920,q_auto,w_1080/v1653318864/trabalho-com-ti/fotos/foto-1_v7enjf.webp">
+          </a>
+          <a href="#">
+            <h3>My goals for 2021 (yes, list is on Trello 😄)</h3>
+          </a>
+          <p><strong>30 Ago 2022</strong></p>
+        </div>
+      </div>
+
+      <a href="#" class="btn btn-lg btn-dark"><h4 class="m-0 p-1">Ver mais respostas</h4></a>
+    </div>
+  </section>
+
+  <section class="section bg-tertiary">
+    <div class="container">
+      <i class="lni lni-mic mb-3" style="font-size: 5rem;"></i>
+      <a href="#" class="link-dark">
+        <h1 class="display-4">Podcast</h1>
+      </a>
+      <p class="big-text h3 mb-5">Se aprofunde na área e conheça a história de pessoas incríveis.</p>
+
+      <div class="row mb-4">
+        <div class="col-12 col-sm-6 col-md-4">
+          <a href="#">
+            <img class="img-fluid rounded mb-3" src="https://res.cloudinary.com/trabalhocomti/image/upload/c_fill,g_center,h_720,q_auto,w_1080/v1653344415/trabalho-com-ti/fotos/BOI9jki3nzY.webp">
+          </a>
+          <a href="#">
+            <h3>My goals for 2021 (yes, list is on Trello 😄)</h3>
+          </a>
+          <p><strong>30 Ago 2022</strong></p>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4">
+          <a href="#">
+            <img class="img-fluid rounded mb-3" src="https://res.cloudinary.com/trabalhocomti/image/upload/c_fill,g_center,h_720,q_auto,w_1080/v1653344415/trabalho-com-ti/fotos/BOI9jki3nzY.webp">
+          </a>
+          <a href="#">
+            <h3>My goals for 2021 (yes, list is on Trello 😄)</h3>
+          </a>
+          <p><strong>30 Ago 2022</strong></p>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4">
+          <a href="#">
+            <img class="img-fluid rounded mb-3" src="https://res.cloudinary.com/trabalhocomti/image/upload/c_fill,g_center,h_720,q_auto,w_1080/v1653344415/trabalho-com-ti/fotos/BOI9jki3nzY.webp">
+          </a>
+          <a href="#">
+            <h3>My goals for 2021 (yes, list is on Trello 😄)</h3>
+          </a>
+          <p><strong>30 Ago 2022</strong></p>
+        </div>
+      </div>
+
+      <a href="#" class="btn btn-lg btn-dark"><h4 class="m-0 p-1">Ver outros episódios</h4></a>
+    </div>
+  </section>
+
+  <section class="section bg-secondary text-white">
+    <div class="container">
+      <i class="lni lni-travel mb-3" style="font-size: 5rem;"></i>
+      <a href="#" class="link-light">
+        <h1 class="display-4">Treinamentos</h1>
+      </a>
+      <p class="big-text h3 mb-5">Começe ou alavanque a sua carreira agora mesmo com os nossos treinamentos.</p>
+
+      <div class="row pb-5">
+        <div class="col-12 col-md-5">
+          <a href="#">
+            <img class="img-fluid rounded mb-3" src="https://res.cloudinary.com/trabalhocomti/image/upload/q_auto/v1653391767/trabalho-com-ti/fotos/como-iniciar-em-ti_kd62d8.webp">
+          </a>
+        </div>
+        <div class="col-12 col-md-7">
+          <a class="link-light mb-4" href="#">
+            <h1>Quer iniciar na carreira de tecnologia?</h1>
+          </a>
+          <p class="mb-4">Neste treinamento vou te ensinar o básico que você precisa saber para ter uma carreira de sucesso e começar com o pé direito esta sua nova trajetória.</p>
+          <a href="#" class="btn btn-lg btn-primary"><h3 class="m-0 p-1">Acessar o treinamento</h3></a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 col-md-5">
+          <a href="#">
+            <img class="img-fluid rounded mb-3" src="https://res.cloudinary.com/trabalhocomti/image/upload/q_auto/v1653391766/trabalho-com-ti/fotos/dev-ios-do-zero_e8bdoo.webp">
+          </a>
+        </div>
+        <div class="col-12 col-md-7">
+          <a class="link-light mb-4" href="#">
+            <h1>Você já pensou em trabalhar desenvolvendo aplicativos para a plataforma da Apple o iOS?</h1>
+          </a>
+          <p class="mb-4">Neste treinamento vou te ensinar TUDO o que você precisa saber para ser um dos profissionais mais requisitados e mais bem pagos do mercado hoje em dia.</p>
+          <a href="#" class="btn btn-lg btn-primary"><h3 class="m-0 p-1">Acessar o treinamento</h3></a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section bg-primary text-white">
+    <div class="container">
+      <i class="lni lni-share-alt-1 mb-3" style="font-size: 5rem;"></i>
+      <h1 class="display-4">Nossas redes</h1>
+      <p class="big-text h3 mb-5">Fique por dentro de tudo o que estamos fazendo!</p>
+
+      <div class="row pb-5">
+        <div class="col-3">
+          <a href="https://www.instagram.com/trabalhocomti/">
+            <img class="img-fluid rounded" alt="Instagram" src="https://res.cloudinary.com/trabalhocomti/image/upload/q_auto/v1653396112/trabalho-com-ti/logo/social-media/instagram_xscaxs.webp">
+          </a>
+        </div>
+        <div class="col-3">
+          <a href="https://www.youtube.com/channel/UC5bEUJPHER_8iBCTTe11dBQ">
+            <img class="img-fluid rounded" alt="YouTube" src="https://res.cloudinary.com/trabalhocomti/image/upload/q_auto/v1653396113/trabalho-com-ti/logo/social-media/youtube_db1cpa.webp">
+          </a>
+        </div>
+        <div class="col-3">
+          <a href="https://www.tiktok.com/@trabalhocomti">
+            <img class="img-fluid rounded" alt="TikTok" src="https://res.cloudinary.com/trabalhocomti/image/upload/q_auto/v1653396113/trabalho-com-ti/logo/social-media/tiktok_ejknur.webp">
+          </a>
+        </div>
+        <div class="col-3">
+          <a href="https://www.linkedin.com/company/trabalhocomti/">
+            <img class="img-fluid rounded" alt="LinkedIn" src="https://res.cloudinary.com/trabalhocomti/image/upload/q_auto/v1653396112/trabalho-com-ti/logo/social-media/linkedin_b3imcw.webp">
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
   </body>
 </html>
